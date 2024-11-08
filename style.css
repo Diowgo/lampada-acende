@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p {
+    font-size: 40px;
+}
+
+.container {
+    display: flex;
+    max-width: 968px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+.binaryContainer {
+    display: flex;
+    margin-right: 10px;
+}
+
+.binaryContainer>p {
+    padding: 10px;
+    background-color: #eee;
+}
+
+button {
+    padding: 30px;
+    font-size: large;
+}
+
+.botoes {
+    display: flex;
+    max-width: 968px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    gap: 20px;
+}
